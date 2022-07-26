@@ -1,0 +1,45 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "production": "mix --production"
+    },
+    "devDependencies": {
+        "@editorjs/checklist": "^1.3.0",
+        "@editorjs/code": "^2.7.0",
+        "@editorjs/delimiter": "^1.2.0",
+        "@editorjs/image": "^2.6.2",
+        "@editorjs/inline-code": "^1.3.1",
+        "@editorjs/link": "^2.4.1",
+        "@editorjs/marker": "^1.2.2",
+        "@editorjs/quote": "^2.4.0",
+        "@editorjs/raw": "^2.3.1",
+        "@editorjs/warning": "^1.2.0",
+        "axios": "^0.21",
+        "i": "^0.3.7",
+        "laravel-mix": "^6.0.6",
+        "lodash": "^4.17.19",
+        "postcss": "^8.1.14",
+        "vue-loader": "^15.9.7",
+        "vue-template-compiler": "^2.6.14"
+    },
+    "dependencies": {
+        "@editorjs/editorjs": "^2.24.3",
+        "@editorjs/embed": "^2.5.1",
+        "@editorjs/header": "^2.6.2",
+        "@editorjs/list": "^1.7.0",
+        "@editorjs/paragraph": "^2.8.0",
+        "@editorjs/table": "^2.0.2",
+        "bootstrap-icons": "^1.8.1",
+        "view-design": "^4.7.0",
+        "vue": "^2.6.14",
+        "vue-editor-js": "^2.0.2",
+        "vue-router": "^3.5.3",
+        "vuex": "^3.6.2"
+    }
+}
